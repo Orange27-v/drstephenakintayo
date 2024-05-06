@@ -1,0 +1,119 @@
+.sidemenu-right {
+  position: fixed;
+  top: 0;
+  right: -350px; /* Initially hidden */
+  width: 350px;
+  height: 100%;
+  background: #333;
+  z-index: 999;
+  transition: right 0.5s ease-in; /* Ease-in transition */
+}
+
+.sidemenu-right.open {
+  right: 0; /* Slide in from left when open */
+  transition: right 0.5s ease-in; /* Ease-in transition */
+}
+
+.sidemenu-right.animate {
+  animation: slideIn 0.5s ease forwards; /* Adjust the duration and timing function */
+}
+
+@keyframes slideIn {
+  from {
+    right: -450px; /* Initial position */
+  }
+  to {
+    right: 0; /* Slide in from left */
+  }
+}
+
+.overlay-right {
+  position: fixed;
+  top: 0;
+  left: 0px; /* Initially hidden */
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.menu-content {
+  padding: 20px;
+  color: #fff;
+  background: #000;
+  height: 100%;
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.icon-grid {
+  width: 65px;
+  height: 65px;
+  font-size: 500px;
+  color: black;
+}
+
+.sidemenu-header {
+  margin: auto 50px;
+}
+
+
+.menu-logo-ctn-left {
+  position: relative;
+  right: 40px;
+}
+
+
+.name-ctn-left p {
+  color: #fff !important;
+}
+
+
+.menu-logo-ctn-left {
+  position: absolute !important;
+  left: 35px !important;
+  top: 65px !important;
+}
+
+.about-sa {
+  width: 90%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  top: 15%;
+  left: 30px;
+}
+
+
+.sidebar-about-section {
+  color: #fff !important;
+  margin: 50% 0 0 30px;
+}
+
+.sidebar-about-section h2{
+  color: #fff !important;
+    margin: 10px;
+}
+.sidebar-about-section span{
+  color: #fff !important;
+    margin: 10px;
+}
+.sidebar-about-section p{
+  color: #fff !important;
+    margin: 10px;
+}
+
+.sidebar-about-section h4{
+  color: #fff !important;
+}
+
+.icon-grid-left {
+  color: #fff !important;
+  position: relative;
+  top: 5px;
+}
