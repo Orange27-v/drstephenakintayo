@@ -248,6 +248,7 @@ li {
 
 .main-section-social {
   margin-top: 7px;
+  display: none;
 }
 
 .circle {
