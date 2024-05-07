@@ -8,7 +8,7 @@ import RightSideMenu from "../components/SideMenu/RightSideMenu.jsx";
 
 import AppRoutes from "../routes/Routes.jsx";
 import "../Styles/Header.css";
-import Logo from "../assets/logo/logo.png";
+import Logo from "../../public/assets/logo/logo.png";
 
 function AppNavigation() {
   const [isLeftSideMenuOpen, setIsLeftSideMenuOpen] = useState(false);
