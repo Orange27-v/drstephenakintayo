@@ -8,7 +8,6 @@ import ServicesPage from "./../pages/Services";
 import BlogPage from "../pages/Blog.jsx";
 import SliderPage from "../pages/Slider.jsx";
 import NoPage from "../pages/NoPage.jsx";
-import TextToSpeech from "../demo/TextToSpeech.jsx";
 
 const AppRoutes = () => {
   return (
@@ -18,7 +17,6 @@ const AppRoutes = () => {
       <Route path="/services" element={<ServicesPage />} />
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/slider" element={<SliderPage />} />
-      <Route path="/speech" element={<TextToSpeech />} />
       <Route path="*" element={<NoPage />} />
     </Routes>
   );
