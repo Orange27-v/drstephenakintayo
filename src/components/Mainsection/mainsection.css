@@ -8,7 +8,7 @@
   border: 1px solid #ccc;
   border-radius: 10px;
   /* margin-top: 2px; */
-  background-image: url("./src/assets/background/background.jpeg");
+  background-image: url("src/assets/background/background.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
