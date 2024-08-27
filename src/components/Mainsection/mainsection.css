@@ -1,0 +1,195 @@
+.main-section-ctn {
+  width: 100%;
+  height: 580px;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  /* margin-top: 2px; */
+  background-image: url("/src/assets/background/background.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* .main-section-ctn img {
+    object-fit: cover;
+    width: 100%;
+    height: 650px;
+    padding: 15px;
+  } */
+
+.ska-about-content {
+  position: relative;
+  top: 23%;
+  left: 15%;
+  /* padding: 35px; */
+  /* border: 1px solid #000; */
+  color: #fff;
+  line-height: 1.2;
+  /* height: 100%; */
+  /* width: 50%; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  /* align-content: flex-start; */
+}
+
+.ska-name-heading h2,
+p {
+  color: #fff;
+  margin: 0;
+  /* line-height: 0%; */
+}
+
+.ska-forbes-ctn {
+  display: flex;
+  bottom: 5px;
+  position: relative;
+}
+
+.forbes-ska {
+  position: relative;
+}
+
+.forbes-ska h2 {
+  font-family: "forbes";
+  font-size: 80px !important;
+  position: relative;
+  /* top: -68px; */
+  color: #fff;
+}
+
+.forbes-ska::after {
+  content: "";
+  position: absolute;
+  top: 26px;
+  right: -16px;
+  /* left: -3px; */
+  height: 60px;
+  border-left: 4px solid #ffffff;
+}
+
+.ska-left-desc {
+  width: 250px;
+  padding-left: 30px;
+  padding: 30px 0 20px 30px;
+}
+
+.ska-world-mission {
+  position: relative;
+  /* bottom: 150px; */
+  word-break: auto-phrase;
+  width: 85%;
+}
+
+.ska-world-mission p {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Merriweather", serif;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.bck-img-ctn img {
+  object-fit: contain;
+  width: 100%;
+  height: 578px;
+  position: relative;
+  left: 6.5%;
+  right: 0;
+  top: 2px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 412px) {
+  .name-ctn p {
+    display: none;
+  }
+  .name-ctn small {
+    display: none;
+  }
+
+  .nav-bar {
+    align-content: space-between;
+    justify-content: center;
+    margin: 8px 15px !important;
+  }
+  .nav-bar ul,
+  li {
+    flex-direction: column !important;
+    display: none !important;
+  }
+
+  .menu-logo-ctn {
+    left: 0 !important;
+  }
+
+  .main-header__sidebar-btn {
+    display: none !important;
+  }
+
+  .main-header__notify {
+    display: none !important;
+  }
+
+  .main-section-ctn {
+    width: 100%;
+    height: 500px;
+  }
+
+  .ska-about-content {
+    text-align: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 15% auto;
+  }
+  
+  .ska-forbes-ctn {
+    display: block;
+    bottom: 5px;
+    position: relative;
+  }
+
+  .forbes-ska h2 {
+    font-size: 50px !important;
+
+    top: 15px;
+  }
+
+  .forbes-ska::after {
+    display: none;
+  }
+  .ska-world-mission {
+    width: 85%;
+    margin: auto;
+  }
+
+  .ska-world-mission p {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 413px) and (max-width: 575px) {
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1119px) {
+}
+
+@media (min-width: 1120px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+  .bck-img-ctn img {
+    left: 63px;
+  }
+}

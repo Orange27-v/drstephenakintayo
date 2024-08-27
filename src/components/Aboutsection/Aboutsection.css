@@ -1,0 +1,252 @@
+/* SERVICES SECTION STYLE */
+
+.services-section {
+  width: 1040px;
+  margin: auto;
+  /* border: 1px solid #036ca8; */
+  justify-content: flex-start !important;
+  align-content: flex-start !important;
+  align-items: flex-start !important;
+}
+
+.section-title-ctn {
+  width: 100%;
+}
+
+.section-title-ctn p {
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.section-title-ctn h2 {
+  font-weight: 600;
+  font-size: 32px;
+  text-align: left;
+  font-family: "Merriweather", serif;
+}
+
+.services-left-ctn {
+  height: 500px;
+  /* border: 1px dashed #000; */
+}
+
+.services-info-ctn {
+  height: 470px;
+  margin: 0px;
+  padding-left: -20px;
+  background-color: #0488d4;
+}
+
+.services-info-ctn-bg {
+  background-image: url("/src/assets/person/77568.jpeg");
+  padding-left: -20px;
+  background-color: #0488d4;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+}
+
+.service-info-desc {
+  padding: 30px;
+  color: #fff;
+  position: absolute;
+  top: 57.8%;
+  text-align: center;
+  background: linear-gradient(45deg, black, transparent);
+}
+
+.section-desc-ctn {
+  height: 50%;
+}
+
+.section-desc-heading {
+  font-weight: 700;
+  font-size: 24px !important;
+  color: #fff !important;
+  transition: height 1.5s ease, opacity 0.5s ease-in-out; /* Adjusted opacity transition */
+  opacity: 1;
+}
+.section-desc-p {
+  position: relative;
+  /* bottom: 40px; */
+  font-size: 12px;
+  color: white;
+  transition: height 1.5s ease, opacity 0.5s ease-in-out; /* Adjusted opacity transition */
+  opacity: 1;
+}
+
+/* .service-info-desc:hover {
+    position: relative;
+      bottom: 10px; 
+    background: linear-gradient(45deg, black, transparent);
+  } */
+.service-info-desc:hover .section-desc-p {
+  height: 100%;
+  opacity: 1;
+  animation: revealContent 0.5s ease;
+  /* background: linear-gradient(45deg, black, transparent); */
+}
+.service-info-desc:hover .section-desc-heading {
+  height: 100%;
+  opacity: 1;
+  /* bottom: 10px; */
+  /* background: linear-gradient(); */
+  animation: revealContent 0.5s ease;
+}
+
+/* list section area */
+
+.services-list-ctn {
+  background: #0488d4;
+  width: 100%;
+  height: 470px;
+}
+
+/* list section area */
+
+@keyframes revealContent {
+  0% {
+    height: 0;
+    opacity: 0;
+  }
+  35% {
+    height: 100%;
+    opacity: 0.1;
+  }
+  750% {
+    height: 100%;
+    opacity: 0.1;
+  }
+  100% {
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+/* social icon */
+.section-desc-social-icon {
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.icon {
+  position: relative;
+  top: 3px;
+  bottom: 2px;
+  color: #000001;
+  font-size: 18px;
+}
+
+.services-info-ctn {
+  width: 95%;
+}
+
+.services-details-main {
+  height: 500px;
+  transform: translateX(270px);
+}
+.services-details-ctn:hover {
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1);
+  transition: transform .2s ease-in-out, border-color .2s ease-in-out, background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  
+}
+
+@keyframes identifier {
+  0% {
+  opacity: 0;
+  transform: scale(0.8);
+}
+100% {
+  opacity: 1;
+  transform: scale(1);
+}
+}
+
+.services-details-ctn {
+  padding: 20px;
+  margin: 15px;
+  border: 2px solid #0488d4;
+  height: 20.33%;
+  transform: translateX(270px);
+}
+
+.services-details-ctn-last {
+  padding: 20px;
+  margin: 15px;
+  border: none !important;
+  height: 20.33%;
+  background: #156d91;
+}
+
+.services-details-last p {
+  color: #fff !important;
+}
+.services-details-last h3 {
+  color: #fff !important;
+}
+
+.services-details-info p {
+  color: #000;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 360px) {
+  .services-section {
+    width: 100%;
+  }
+
+  .services-info-ctn {
+    width: 100%;
+  }
+
+  .services-left-ctn {
+    height: auto;
+  }
+
+  .services-details-info,
+  .services-details-ctn-last {
+    text-align: center;
+  }
+
+  .section-title-ctn p {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 412px) {
+}
+
+@media screen and (min-width: 412px) and (max-width: 575px) {
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1119px) {
+}
+
+@media (min-width: 1120px) and (max-width: 1399px) {
+}
+
+@media (min-width: 1399px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+}

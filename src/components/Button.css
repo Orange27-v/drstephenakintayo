@@ -1,0 +1,96 @@
+.btn {
+  font-family: "Merriweather", serif;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 99;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.btn,
+.btn-lg {
+  padding: 10px 50px;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.btn-sm {
+  text-transform: initial;
+  padding: 10px 30px;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.btn-white {
+  color: #ffff;
+  border: 2px solid #fff;
+}
+.btn-blue {
+  color: #036695;
+  border: 2px solid #016a9c;
+}
+
+.btn-white:hover {
+  background: #fff !important;
+  color: #000;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.btn-blue:hover {
+  background:  #016a9c;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px) {
+ 
+.btn, .btn-lg {
+  padding: 10px 30px;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+}
+
+@media screen and (min-width: 361px) and (max-width: 412px) {
+}
+
+@media screen and (min-width: 412px) and (max-width: 575px) {
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1119px) {
+}
+
+@media (min-width: 1120px) and (max-width: 1399px) {
+
+   
+
+}
+
+@media (min-width: 1399px) and (max-width: 1400px) {
+ 
+}
+
+@media (min-width: 1400px) and (max-width: 1600px){
+  
+}
+

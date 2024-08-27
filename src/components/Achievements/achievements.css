@@ -1,0 +1,148 @@
+/* LIST WITH NUMBERING SECTION STARTS*/
+
+.list-box-section {
+  /* height: 400px; */
+  margin: 40px auto;
+  /* background-image: url("/src/assets/background/plane-img.png"); */
+  background: #156d9212;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 70px 0 30px 0;
+  /* bottom: 170px; */
+}
+
+.listing-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.listing-section-ctn {
+  width: 100%;
+  height: 33.33%;
+  display: flex;
+}
+
+.listing-right-section {
+  width: 80%;
+}
+
+.list-box {
+  width: 20%;
+  height: 60%;
+  background: #156d92;
+  margin: 20px 0 0 0;
+}
+
+.list-box h2 {
+  color: #fff !important;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+ font-family: "Merriweather", serif;
+  position: relative;
+  padding: 20px;
+  -webkit-text-size-adjust: 0%;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -moz-text-stroke-color: rgba(var(--pbmit-xcoach-blackish-color-rgb), 0.3);
+  -webkit-text-stroke-color: rgba(var(--pbmit-xcoach-blackish-color-rgb), 0.3);
+  -moz-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1px;
+}
+
+.list-box-heading {
+  height: 20%;
+  width: 80%;
+  position: relative;
+  padding-left: 30px;
+  margin: 20px 0 0 0;
+  /* border: 1px dashed #000; */
+}
+
+.list-box-heading p {
+  font-weight: 400;
+  font-family: "Merriweather", serif;
+  color: #000;
+  text-align: left;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+.list-desc-ctn {
+  /* width: 40%; */
+  height: 50%;
+  width: 100%;
+  position: relative;
+  bottom: 40px;
+}
+
+.list-desc-ctn p {
+  font-weight: 400;
+  color: #000;
+  font-size: 14px;
+}
+
+/* LIST WITH NUMBERING SECTION ENDS*/
+
+@media screen and (max-width: 360px) {
+  .list-box-section {
+    margin: 40px auto;
+    padding: 0 0 30px 0;
+  }
+
+  .list-box {
+    width: 20%;
+    height: auto;
+    background: #156d92;
+    margin: 20px 0 0 0;
+  }
+
+  .list-box h2 {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    padding: 70px 20px !important;
+  }
+
+  .list-box-heading {
+    height: auto;
+    width: 80%;
+    position: relative;
+    /* padding-left: 30px; */
+    padding: 40px 20px;
+    margin: 20px 0 0 0;
+    /* border: 1px dashed #000; */
+  }
+
+  .list-box-heading p {
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 412px) {
+}
+
+@media screen and (min-width: 412px) and (max-width: 575px) {
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1119px) {
+}
+
+@media (min-width: 1120px) and (max-width: 1399px) {
+}
+
+@media (min-width: 1399px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+}

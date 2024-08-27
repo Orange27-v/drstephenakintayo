@@ -1,0 +1,63 @@
+
+
+/* FIGURE QUOTES SECTION */
+
+.section-short-ctn, .bg-grish-white {
+    background: #f6f7fc !important;
+    position: static;
+    height: 958px;
+  }
+  
+  .figure-section{
+  border-radius: 8px;
+  margin-bottom: 90px;
+  background: #fff;
+  padding: 10px;
+  }
+  
+  
+  .figure-quote {
+    padding: 20px 0;
+    display: grid;
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .figure-quote-line{
+    position: relative;
+  }
+  
+  .figure-quote-line::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    right: 0;
+    left: 5px;
+    height: 60%;
+    border-radius: 1px;
+    border-left: 2px solid #6c6d6e;
+  }
+  
+  
+  
+  
+  .figure-quote h3 {
+    color: #2b2a2a;
+    padding: 0 30px 0;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .figure-quote p {
+    color: #2b2a2a;
+    padding: 10px 30px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-break: normal;
+    word-break: keep-all;
+    text-wrap: wrap;
+  }
+  
+  /* FIGURE QUOTES SECTION */
+  

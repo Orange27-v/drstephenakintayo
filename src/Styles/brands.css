@@ -1,0 +1,15 @@
+.partner-section {
+  position: relative;
+  display: block;
+  bottom: 90px;
+}
+
+.partner-ctn {
+  padding: 20px;
+}
+
+.partner-ctn img {
+  box-shadow: -1px 0px 0px 0px #d9d9d9;
+  border-radius: 5px;
+  filter: drop-shadow(0 0 5px #8f8c8c);
+}

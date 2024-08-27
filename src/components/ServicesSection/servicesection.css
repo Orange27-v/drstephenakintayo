@@ -1,0 +1,73 @@
+
+/* SERVICES SECTION STYLE */
+
+/* ESTATE CONTAINER STARTS HERE  */
+
+.services-ctn {
+    height: 440px;
+    /* background: #03598b; */
+  }
+  
+  .services-bg {
+    height: 100%;
+    background: linear-gradient(45deg, #0081bc, #044364);
+  }
+  
+  .service-details {
+    padding: 40px;
+    height: 80px;
+    /* width: 100%; */
+    text-align: center;
+    color: #fff;
+  }
+  
+  .service-details h2 {
+    font-weight: 900;
+   font-family: "Merriweather", serif;
+    color: #fff;
+    line-height: 2;
+    /* text-align: left; */
+  }
+  
+  .service-details p {
+    font-weight: 500;
+   font-family: "Merriweather", serif;
+    font-size: 16px;
+    /* text-align: left; */
+  }
+  
+  .service-details-btn {
+    width: 200px;
+    margin: auto;
+    height: 50px;
+    display: grid;
+    position: relative;
+    top: 45%;
+  }
+  
+  .service-details-btn .btn {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+  
+
+
+
+  .Previous {
+    display: none !important;
+    justify-content: center;
+    align-items: center;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    background-color: #4CAF50 !important;
+    color: #fff !important;
+    font-size: 25px !important;
+    z-index: 99;
+    left: 20px !important;
+}
+.services-bg, .Previous:hover {
+    display: block !important;
+    background-color: #3e8e41;
+  }

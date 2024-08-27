@@ -1,0 +1,116 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+
+  /* position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none; */
+  overflow: hidden;
+  outline: 0;
+}
+
+.modal-content {
+  background-color: #fff;
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9;
+  height: auto; /* Full height */
+  margin: 5% auto;
+}
+.modal-content-lg {
+  width: 80% !important; /* Full height */
+}
+.modal-content-md {
+  width: 60% !important; /* Full height */
+}
+.modal-content-sm {
+  width: 40% !important; /* Full width */
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-content button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #444;
+}
+
+.fade {
+  animation: slide-up 0.5s forwards;
+}
+
+.show {
+  animation: slide-down 1000ms forwards;
+}
+
+@keyframes slide-down {
+  100% {
+    transform: translateY(-100%);
+  }
+
+  0% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.modal-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.modal-header .close {
+    padding: 1rem;
+    margin: -1rem -1rem -1rem auto;
+    border-radius: 50%;
+}
